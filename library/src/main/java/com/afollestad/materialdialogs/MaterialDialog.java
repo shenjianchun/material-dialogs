@@ -900,6 +900,19 @@ public class MaterialDialog extends DialogBase implements
             return this;
         }
 
+
+        public Builder wangYiProgress(String message) {
+
+            LayoutInflater li = LayoutInflater.from(this.context);
+            View view = li.inflate(R.layout.wangyi_progress_dialog, null);
+
+            TextView content = (TextView) view.findViewById(R.id.message);
+            content.setText(message);
+
+            return customView(view, false);
+
+        }
+
         /**
          * Makes this dialog a progress dialog.
          *

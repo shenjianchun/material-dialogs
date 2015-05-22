@@ -184,6 +184,13 @@
             android:text="@string/preference_dialogs"
             android:layout_marginTop="@dimen/sample_button_spacing" />
 
+        <Button
+            android:id="@+id/wangyi_dialogs"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/preference_dialogs"
+            android:layout_marginTop="@dimen/sample_button_spacing" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -1,0 +1,543 @@
+Index: library/src/main/res/anim/loading.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- library/src/main/res/anim/loading.xml	(revision )
++++ library/src/main/res/anim/loading.xml	(revision )
+@@ -0,0 +1,313 @@
++<?xml version="1.0" encoding="utf-8"?>
++<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_01"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++
++    </item>
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_02"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++
++    </item>
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_03"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++    </item>
++
++    <item android:duration="50">
++
++        <clip
++            android:drawable="@drawable/loading_04"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++
++    </item>
++
++
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_05"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++
++        </clip>
++
++
++    </item>
++    <item android:duration="50">
++
++        <clip
++            android:drawable="@drawable/loading_06"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_07"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++
++    </item>
++
++
++    <item android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_08"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_09"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++
++
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_10"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++
++
++    </item>
++
++
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_11"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_13"
++
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_14"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_15"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_16"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_17"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_18"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_19"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_20"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_21"
++
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_22"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_23"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_24"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_25"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_26"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_27"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_28"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_29"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_30"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_31"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_32"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_33"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++    </item>
++    <item
++        android:duration="50">
++        <clip
++            android:drawable="@drawable/loading_34"
++            android:clipOrientation="horizontal"
++            android:gravity="center">
++        </clip>
++    </item>
++
++</animation-list>
+\ No newline at end of file
+Index: library/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- library/build.gradle	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ library/build.gradle	(revision )
+@@ -1,13 +1,12 @@
+ apply plugin: 'com.android.library'
+-apply plugin: 'bintray-release'
+ 
+ android {
+-    compileSdkVersion 22
+-    buildToolsVersion "22.0.1"
++    compileSdkVersion 21
++    buildToolsVersion "21.1.2"
+ 
+     defaultConfig {
+         minSdkVersion 8
+-        targetSdkVersion 22
++        targetSdkVersion 21
+         versionCode 1
+         versionName "0.7.4.1"
+     }
+@@ -23,15 +22,4 @@
+     compile 'com.android.support:recyclerview-v7:22.1.1@aar'
+ 
+     compile 'com.android.support:support-annotations:22.1.1'
+-}
+-
+-publish {
+-    userOrg = 'drummer-aidan'
+-    groupId = 'com.afollestad'
+-    artifactId = 'material-dialogs'
+-    version = '0.7.4.1'
+-    description = 'A library for implementing Material design styled dialogs across all versions of Android.'
+-    website = 'https://github.com/afollestad/material-dialogs'
+-    issueTracker = "${website}/issues"
+-    repository = "${website}.git"
+-}
+\ No newline at end of file
++}
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ build.gradle	(revision )
+@@ -2,9 +2,12 @@
+     repositories {
+         jcenter()
+     }
++
+     dependencies {
+         classpath 'com.android.tools.build:gradle:1.2.3'
+-        classpath 'com.novoda:bintray-release:0.2.10'
++
++        // NOTE: Do not place your application dependencies here; they belong
++        // in the individual module build.gradle files
+     }
+ }
+ 
+\ No newline at end of file
+Index: library/src/main/res/layout/wangyi_progress_dialog.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- library/src/main/res/layout/wangyi_progress_dialog.xml	(revision )
++++ library/src/main/res/layout/wangyi_progress_dialog.xml	(revision )
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++              xmlns:tools="http://schemas.android.com/tools"
++              android:layout_width="match_parent"
++              android:layout_height="wrap_content"
++              android:gravity="end|center_vertical"
++              android:orientation="horizontal"
++              android:paddingBottom="@dimen/md_content_padding_top"
++              android:paddingLeft="@dimen/md_dialog_frame_margin"
++              android:paddingRight="@dimen/md_dialog_frame_margin"
++              android:paddingTop="@dimen/md_content_padding_top">
++
++    <ProgressBar
++        android:id="@+id/progress"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="@dimen/md_content_padding_top"
++        android:layout_marginBottom="@dimen/md_content_padding_top"
++        android:indeterminateDrawable="@anim/loading"/>
++
++    <TextView
++        android:id="@+id/message"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:fontFamily="sans-serif"
++        android:textAlignment="viewStart"
++        tools:ignore="NewApi,RtlSymmetry,UnusedAttribute"
++        android:paddingLeft="16dp"
++        android:paddingStart="16dp"
++        android:gravity="start"
++        android:textSize="16sp"
++        android:text="请等待..."
++        />
++</LinearLayout>
++
+Index: sample/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/main/res/layout/activity_main.xml	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ sample/src/main/res/layout/activity_main.xml	(revision )
+@@ -184,6 +184,13 @@
+             android:text="@string/preference_dialogs"
+             android:layout_marginTop="@dimen/sample_button_spacing" />
+ 
++        <Button
++            android:id="@+id/wangyi_dialogs"
++            android:layout_width="match_parent"
++            android:layout_height="56dp"
++            android:text="@string/preference_dialogs"
++            android:layout_marginTop="@dimen/sample_button_spacing" />
++
+     </LinearLayout>
+ 
+ </ScrollView>
+\ No newline at end of file
+Index: sample/src/main/java/com/afollestad/materialdialogssample/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/main/java/com/afollestad/materialdialogssample/MainActivity.java	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ sample/src/main/java/com/afollestad/materialdialogssample/MainActivity.java	(revision )
+@@ -243,7 +243,15 @@
+                     startActivity(new Intent(getApplicationContext(), PreferenceActivityCompat.class));
+             }
+         });
++
++        findViewById(R.id.wangyi_dialogs).setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++
++                showWangYiDialog();
+-    }
++            }
++        });
++    }
+ 
+     @Override
+     protected void onPause() {
+@@ -704,4 +712,11 @@
+     public void onFolderSelection(File folder) {
+         showToast(folder.getAbsolutePath());
+     }
++
++    public void showWangYiDialog() {
++        new MaterialDialog.Builder(this)
++                .wangYiProgress("Please Waiting...")
++                .show();
++    }
++
+ }
+Index: sample/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/build.gradle	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ sample/build.gradle	(revision )
+@@ -1,8 +1,8 @@
+ apply plugin: 'com.android.application'
+ 
+ android {
+-    compileSdkVersion 22
+-    buildToolsVersion "22.0.1"
++    compileSdkVersion 21
++    buildToolsVersion "21.1.2"
+ 
+     signingConfigs {
+         production {
+@@ -16,7 +16,7 @@
+     defaultConfig {
+         applicationId "com.afollestad.materialdialogssample"
+         minSdkVersion 9
+-        targetSdkVersion 22
++        targetSdkVersion 21
+         versionCode 124
+         versionName "0.7.4.1"
+     }
+\ No newline at end of file
+Index: library/src/main/java/com/afollestad/materialdialogs/MaterialDialog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- library/src/main/java/com/afollestad/materialdialogs/MaterialDialog.java	(revision 136cf97e0f0b3680483d812188bb7ed37185dcd3)
++++ library/src/main/java/com/afollestad/materialdialogs/MaterialDialog.java	(revision )
+@@ -900,6 +900,19 @@
+             return this;
+         }
+ 
++
++        public Builder wangYiProgress(String message) {
++
++            LayoutInflater li = LayoutInflater.from(this.context);
++            View view = li.inflate(R.layout.wangyi_progress_dialog, null);
++
++            TextView content = (TextView) view.findViewById(R.id.message);
++            content.setText(message);
++
++            return customView(view, false);
++
++        }
++
+         /**
+          * Makes this dialog a progress dialog.
+          *
+\ No newline at end of file

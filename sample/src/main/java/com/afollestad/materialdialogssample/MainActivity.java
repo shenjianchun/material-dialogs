@@ -243,6 +243,14 @@ public class MainActivity extends AppCompatActivity implements
                     startActivity(new Intent(getApplicationContext(), PreferenceActivityCompat.class));
             }
         });
+
+        findViewById(R.id.wangyi_dialogs).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                showWangYiDialog();
+            }
+        });
     }
 
     @Override
@@ -704,4 +712,11 @@ public class MainActivity extends AppCompatActivity implements
     public void onFolderSelection(File folder) {
         showToast(folder.getAbsolutePath());
     }
+
+    public void showWangYiDialog() {
+        new MaterialDialog.Builder(this)
+                .wangYiProgress("Please Waiting...")
+                .show();
+    }
+
 }
